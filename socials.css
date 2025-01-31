@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    position: sticky;
+    top: 0;
+}
+
+.wrapper {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #3498db;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+
+
+.wrapper img{
+    border-radius: 20px;
+    width: 20%;
+    height: 20%;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    justify-content: center;
+    box-shadow: 10px 10px rgba(60, 60, 60, 0.5);
+
+}
+
+.ig, .fb, .github{
+    background: linear-gradient(to right, rgb(137, 133, 133), #454646);
+    height: 50px;
+    border-radius: 70px;
+    width: 30%;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    box-shadow: 7px 7px 10px 5px rgba(60, 60, 60, 0.5);
+}
+body::-webkit-scrollbar { /*omogoči scroll ampak ne prikaže scrollbar*/
+    display: none;
+}
+
+.wrapper a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+}
+
+.wrapper i{
+    padding: 10px 40px;
+}
+
+.wrapper .vse .ig a:hover, .wrapper .vse .fb a:hover, .wrapper .vse .github a:hover{
+    color: red;
+}
+
+.wrapper .vse b{
+    display: block;
+    color: white;
+    text-align: center;
+}
